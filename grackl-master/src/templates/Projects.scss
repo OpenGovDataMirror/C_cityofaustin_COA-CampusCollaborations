@@ -1,0 +1,68 @@
+.coa-project__name {
+  font-size: 3.3rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: left;
+  color: #0049C7; font: "Arial"; 
+
+}
+
+.coa-project__summary {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.5;
+  font-family: "Arial"; margin-bottom: 1rem;
+
+}
+
+.coa-project__phase {
+  font-size: 1.4rem;
+  line-height: 2.36;
+  letter-spacing: 0.8px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #979696;
+  font-family: "Arial";
+
+}
+
+hr {
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+
+}
+
+.coa-city__sub-category {
+  font-family: "Arial"; font-weight: 600; font-size: 2.2rem; color: #0049C7;
+
+}
+
+.coa-project__body{
+margin-left: 3em; line-height: 1.5;
+ font-size: 18px;
+  padding-bottom: 0.1rem;
+ font-family: "Arial"; font-weight: normal;}
+
+
+#clock-icon {
+  display: inline-flex;
+  align-self: center;
+  position: relative;
+  fill: grey;
+
+}
+
+.coa-comma:not(:first-child) {
+  margin-left: -.2em;  
+}
+
+.coa-comma:empty {
+  display: none;
+}
+
+.coa-comma:not(:first-child):before {
+  content: ", ";
+}
+
